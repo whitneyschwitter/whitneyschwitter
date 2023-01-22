@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Circular Std', sans-serif;
+  }
+
+h1 {
+    text-align: left;
+    font-size: 2.5rem;
+    padding-right: 40%;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    text-decoration: none;
+}
+
+h2 {
+  padding-left: 2%;
+  font-family: 'Circular Std', sans-serif;
+}
+
+h3 {
+  padding-left: 2%;
+  font-size: 1.5rem;
+  line-height: 1px;
+
+}
+
+a:link {
+  text-decoration: none;
+  color:none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+
+.nav {
+  float:inline-end;
+  padding-right: 2%;
+  font-size: 20px;
+  line-height: 1;
+
+}
+
+a:visited {
+  color:black;
+}
+
+a:hover {
+  color: #6C6C6C;
+}
+
+
+p {
+  padding-left: 2%;
+  padding-right: 2%;
+} 
+
+  .row,
+  .row > .column {
+    padding: 25px;
+    display: block;
+    row-gap: 1em;
+
+  } 
+
+  .column {
+    float: left;
+    width: 50%;
+    display: block;
+    display: none; 
+    padding: 30px;
+  } 
+  
+
+  .content {
+    background-color: #EDEFF4;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+
+  .footer {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+    padding-top: 2%;
+  }
+
+  .blue-highlight { 
+    background-color:#6C9BED;
+    padding:0.5em 0.6em;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
+   .yellow-highlight1 {
+    background-color:  #F3D974;
+    padding-left: 2%;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
+   .yellow-highlight {
+    background-color: #EDD06C;
+    padding:0.5em 0.6em;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
+   .green-highlight {
+    background-color: #90BD81;
+    padding:0.5em 0.6em;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
+   .pink-highlight {
+    background-color: #EBB1E3;
+    padding:0.5em 0.6em;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
+
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    row-gap: 1em;
+  }
+
+  @media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+  } 
+
+.arrow {
+  font-size: 32px;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  width: 1100px;
+  height: 300px;
+  object-fit: contain;
+}
+
