@@ -127,6 +127,13 @@ p {
     white-space: nowrap;
    }
 
+   .purple-highlight {
+    background-color: #B38BBD;
+    padding:0.5em 0.6em;
+    border-radius: 25px;
+    white-space: nowrap;
+   }
+
 
 
   .row:after {
