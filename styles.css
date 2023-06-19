@@ -37,6 +37,15 @@ a:link, a:visited {
   color: black;
 }
 
+.nav-main {
+  text-align: end;
+  float:inline-end;
+  padding-right: 2%;
+  font-size: 20px;
+  line-height: 1;
+  white-space: nowrap;
+
+}
 
 .nav {
   text-align: end;
