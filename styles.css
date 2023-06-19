@@ -45,6 +45,10 @@ a:link, a:visited {
   font-size: 20px;
   line-height: 1;
   white-space: nowrap;
+  position: sticky;
+  top: 0px; 
+  background-color: white;
+  padding: 10px 10px; 
 
 }
 
@@ -215,6 +219,7 @@ p {
   position: relative;
 }
 
-img:hover {
+.img-button:hover {
   opacity: .75;
 }
+
