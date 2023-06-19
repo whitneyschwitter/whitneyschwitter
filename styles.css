@@ -214,3 +214,7 @@ p {
 .video-content {
   position: relative;
 }
+
+img:hover {
+  opacity: .75;
+}
