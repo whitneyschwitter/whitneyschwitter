@@ -7,6 +7,49 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/*
+
+mine
+
+*/
+
+	.displayimg {
+		display: inline-block;
+			border-radius: 100%;
+			padding: 0.65em;
+			margin: 0 0 2em 0;
+			cursor: default;
+	}
+
+	.imgcap {
+		text-align: center;
+		font-size: 14px;
+	}
+
+
+	.row1,
+	.row1 > .column1 {
+	  padding: 25px;
+	  display: block;
+	  row-gap: 1em;
+  
+	} 
+  
+	.column1 {
+	  float: left;
+	  width: 50%;
+	  display: block;
+	  display: none; 
+	  padding: 30px;
+	} 
+	
+  
+	.content1 {
+	  background-color: #EDEFF4;
+	  display: inline-block;
+	  overflow: hidden;
+	}
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -73,6 +116,7 @@ input, select, textarea {
 }
 
 /* Basic */
+	
 
 	@-ms-viewport {
 		width: device-width;
@@ -99,11 +143,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: white; 
+		/* background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%); */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,15 +161,19 @@ input, select, textarea {
 			transition: none !important;
 		}
 
+
+		.researchls {
+			padding-left:5%;
+			font-style: italic;
+		}
 /* Type */
 
-	body {
-		background-color: #935d8c;
-		color: rgba(255, 255, 255, 0.65);
-	}
+
+
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/* font-family: "Source Sans Pro", Helvetica, sans-serif; */
+		font-family: 'Circular Std', sans-serif;
 		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -169,9 +217,7 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
-	strong, b {
-		font-weight: 400;
-	}
+
 
 	em, i {
 		font-style: italic;
@@ -198,10 +244,17 @@ input, select, textarea {
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
 		letter-spacing: -0.025em;
+		
+		
+
+	}
+
+	h3 {
+		line-height: .05;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
+			color: black; 
 			text-decoration: none;
 		}
 
@@ -303,19 +356,16 @@ input, select, textarea {
 	}
 
 	input, select, textarea {
-		color: #ffffff;
+		color: black; 
 	}
 
 	a:hover {
-		color: #ffffff;
+		color: #4361ee; 
 	}
 
-	strong, b {
-		color: #ffffff;
-	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: black;
 	}
 
 	blockquote {
@@ -330,6 +380,34 @@ input, select, textarea {
 	hr {
 		border-bottom-color: rgba(255, 255, 255, 0.35);
 	}
+
+	.textcolumn {
+		float: left;
+		width: 50%;
+		white-space: normal;
+	
+	
+	  }
+	  
+	/* Clear floats after the columns */
+	.textrow:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.threecolumn {
+		float: left;
+		width: 33.33%;
+		padding: 5px;
+	}
+
+	/* Clear floats after image containers */
+	.threerow::after {
+		content: "";
+		clear: both;
+		display: table;
+  	}
 
 /* Row */
 
@@ -2262,6 +2340,7 @@ input, select, textarea {
 			padding: 0.65em;
 			margin: 0 0 2em 0;
 			cursor: default;
+			text-align: center;
 		}
 
 			.icon.major:before {
@@ -2349,18 +2428,35 @@ input, select, textarea {
 
 	.icon.alt {
 		border-color: rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: black;
 	}
 
 		.icon.alt:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			color:#4361ee;
 		}
 
 		.icon.alt:active {
 			background-color: rgba(255, 255, 255, 0.2);
 		}
 
+		.content {
+			display: inline-block;
+			overflow: hidden;
+		  }
+
+		.content img {
+			width:100%;
+			height:fit-content;
+		}
+
+	
+
+
+
 /* Image */
+
+
+     
 
 	.image {
 		border-radius: 8px;
@@ -2368,6 +2464,18 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
+
+		.wf img{
+			max-width: 75%;
+			margin: auto;
+			
+		
+		}
+
+		.display img {
+		display: inline-block;
+    	overflow: hidden;
+		}
 
 		.image img {
 			border-radius: 8px;
@@ -2462,10 +2570,10 @@ input, select, textarea {
 		}
 
 		dl dd {
-			margin-left: 2em;
+			margin-left: 0em;
 		}
 
-		dl.alt dt {
+		/* dl.alt dt {
 			display: block;
 			width: 3em;
 			margin: 0;
@@ -2475,7 +2583,7 @@ input, select, textarea {
 
 		dl.alt dd {
 			margin: 0 0 0.85em 5.5em;
-		}
+		} */
 
 		dl.alt:after {
 			content: '';
@@ -2632,9 +2740,9 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	/* section.special, article.special {
 		text-align: center;
-	}
+	} */
 
 	header.major {
 		margin-bottom: 3em;
@@ -2663,9 +2771,9 @@ input, select, textarea {
 			letter-spacing: -0.025em;
 		}
 
-		header.major.special {
+		/* header.major.special {
 			text-align: center;
-		}
+		} */
 
 			header.major.special h2:after {
 				margin-left: auto;
@@ -2814,7 +2922,7 @@ input, select, textarea {
 	}
 
 		.features li {
-			width: calc(33.33333% - 2em);
+			width: calc(50% - 2em);
 			margin-left: 2em;
 			margin-top: 3em;
 			padding: 0;
@@ -3073,7 +3181,7 @@ input, select, textarea {
 
 	#header {
 		padding: 5em 5em 1em 5em ;
-		text-align: center;
+		/* text-align: center; */
 	}
 
 		#header h1 {
@@ -3086,7 +3194,7 @@ input, select, textarea {
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			padding: 8em 0em 0em 0em ;
 		}
 
 			#header.alt h1 {
@@ -3118,33 +3226,23 @@ input, select, textarea {
 				margin: 0 0 1.5em 0;
 			}
 
-				#header.alt .logo img {
-					display: block;
-					margin: 0 auto;
-					max-width: 75%;
-				}
-
 		@media screen and (max-width: 1280px) {
 
 			#header {
-				padding: 4em 4em 0.1em 4em ;
+				padding: 4em em 0.1em 4em ;
 			}
 
-				#header.alt {
-					padding: 6em 4em 3em 4em ;
-				}
+		
 
 		}
 
 		@media screen and (max-width: 980px) {
 
 			#header {
-				padding: 4em 3em 0.1em 3em ;
+				padding: 4em 0em 0.1em 3em ;
 			}
 
-				#header.alt {
-					padding: 5em 3em 2em 3em ;
-				}
+			
 
 		}
 
@@ -3163,9 +3261,6 @@ input, select, textarea {
 						display: none;
 					}
 
-				#header.alt {
-					padding: 4em 2em 1em 2em ;
-				}
 
 					#header.alt h1 {
 						font-size: 2.5em;
@@ -3176,24 +3271,18 @@ input, select, textarea {
 		@media screen and (max-width: 480px) {
 
 			#header {
-				padding: 3em 1.5em 0.1em 1.5em ;
+				padding: 3em 1.5em 2em 1.5em ;
 			}
 
-				#header.alt {
-					padding: 4em 1.5em 1em 1.5em ;
-				}
 
 		}
 
 		@media screen and (max-width: 360px) {
 
 			#header {
-				padding: 2.5em 1em 0.1em 1em ;
+				padding: 2.5em 1em 2em 1em ;
 			}
 
-				#header.alt {
-					padding: 3.5em 1em 0.5em 1em ;
-				}
 
 		}
 
@@ -3210,7 +3299,22 @@ input, select, textarea {
 
 /* Nav */
 
-	#nav {
+		.nav1 {
+			padding-top: 25px;
+			padding-right: 25px;
+			padding-bottom: 25px;
+			text-decoration: none;
+			border-bottom: none;
+			float: right; 
+			background: white;
+			position: sticky; top: 0;
+			width: 100%;
+
+			scroll-behavior: smooth;
+			box-sizing: border-box;
+  		}
+
+	/* #nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -3226,7 +3330,7 @@ input, select, textarea {
 		border-top-right-radius: 0.25em;
 		cursor: default;
 		text-align: center;
-	}
+	} */
 
 		#nav input, #nav select, #nav textarea {
 			color: #636363;
@@ -3256,7 +3360,7 @@ input, select, textarea {
 		#nav hr {
 			border-bottom-color: #dddddd;
 		}
-
+/* 
 		#nav + #main {
 			padding-top: 4.25em;
 		}
@@ -3309,9 +3413,9 @@ input, select, textarea {
 			border-top-left-radius: 0;
 			border-top-right-radius: 0;
 			z-index: 10000;
-		}
+		} */
 
-			#nav.alt ul li {
+			/* #nav.alt ul li {
 				margin: 0 0.175em;
 			}
 
@@ -3329,7 +3433,7 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		}
+		} */
 
 /* Main */
 
@@ -3437,7 +3541,7 @@ input, select, textarea {
 				#main input[type="button"].primary.icon:before,
 				#main button.primary.icon:before,
 				#main .button.primary.icon:before {
-					color: #ffffff !important;
+					color: black!important;
 				}
 
 		#main label {
@@ -3697,7 +3801,7 @@ input, select, textarea {
 
 		#footer > * {
 			width: calc(50% - 2em);
-			margin-left: 2em;
+			margin-left: 0em;
 		}
 
 		#footer .copyright {
