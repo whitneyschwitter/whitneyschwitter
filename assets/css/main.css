@@ -49,6 +49,7 @@ mine
 	  display: inline-block;
 	  overflow: hidden;
 	}
+	
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -900,7 +901,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			.row {
-				display: flex;
+				/* display: flex; */
 				flex-wrap: wrap;
 				box-sizing: border-box;
 				align-items: stretch;
@@ -2444,10 +2445,10 @@ input, select, textarea {
 			overflow: hidden;
 		  }
 
-		.content img {
+		/* .content img {
 			width:100%;
 			height:fit-content;
-		}
+		} */
 
 	
 
