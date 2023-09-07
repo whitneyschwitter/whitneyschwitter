@@ -1,18 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
-/*
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
-/*
-
-mine
-
-*/
-
 .container {
 	margin: 50px;
     align-items: center;
@@ -23,14 +11,7 @@ mine
 	-webkit-column-break-inside: avoid;
           page-break-inside: avoid;
                break-inside: avoid;
-
-
 			   vertical-align: middle;
-
-			   
-
-
-
   }
   
   
@@ -391,6 +372,8 @@ input, select, textarea {
 	a:hover {
 		color: #4361ee; 
 	}
+
+
 
 
 	h1, h2, h3, h4, h5, h6 {
@@ -3342,6 +3325,10 @@ input, select, textarea {
 			box-sizing: border-box;
   		}
 
+		.links {
+			text-decoration: none;
+		}
+
 	/* #nav {
 		-moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
@@ -3810,6 +3797,8 @@ input, select, textarea {
 						}
 
 		}
+
+
 
 /* Footer */
 
